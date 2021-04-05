@@ -16,7 +16,7 @@ public class HomeController extends Controller {
      * be called when the application receives a <code>GET</code> request with a
      * path of <code>/</code>.
      *
-     * @return
+     * @return Result Object
      */
     public Result index() {
         return ok("It works!");
